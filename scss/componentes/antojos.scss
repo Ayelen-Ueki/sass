@@ -1,0 +1,28 @@
+.listaProductos
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+    grid-gap: 1rem;
+    justify-items: center;
+    li 
+    {
+        display: grid;
+        justify-items: center;
+        display: grid;
+        grid-template-rows: auto;
+        font-weight: bold;
+        font-size: 110%;
+    }
+    p
+    {
+        display: flex;
+        padding-bottom: 1rem;
+        font-size: 70%;
+    }
+    img
+    {
+        display: flex;
+        margin: 1rem;
+    }
+}

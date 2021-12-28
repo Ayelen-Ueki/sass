@@ -1,12 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Fira+Sans:wght@100&family=Hind+Siliguri:wght@300&family=IBM+Plex+Sans:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0; }
+
+@keyframes rotacion {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@media screen and (max-width: 874px) {
+  .logo a img {
+    display: flex;
+    width: 4rem; }
+  .logo p {
+    font-size: 1.5rem; }
+  .iconos img {
+    transform: rotate(360deg); }
+  nav ul li {
+    padding: 0rem 2rem 0rem 0rem; }
+  .listaProductos {
+    display: inline-block; } }
 
 .body {
   border: 1rem; }
 
 .header {
-  background-color: var(#FFE300);
+  background-color: #FFE300;
   position: relative;
   position: sticky;
   top: 0rem; }
@@ -24,14 +42,14 @@
     grid-column: 2/3;
     justify-items: center; }
     .logo a img {
-      width: 7rem;
+      width: 5rem;
       animation-name: rotacion;
       animation-iteration-count: infinite;
       animation-timing-function: ease-in;
-      animation-duration: 1s;
-      animation-delay: 0.5s; }
+      animation-duration: 2s;
+      animation-delay: 3s; }
   .logo p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: bolder;
     display: grid;
@@ -48,7 +66,7 @@
   position: relative;
   display: inline-block; }
   .iconos img {
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     width: 1.5rem;
     height: 1.5rem; }
 
@@ -74,3 +92,108 @@ nav ul {
     padding: 0rem 4rem 0rem 0rem; }
   nav ul:hover {
     text-decoration: underline; }
+
+.body {
+  border: 1rem; }
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: var(--color-blancofeelin);
+  justify-content: center;
+  align-items: center;
+  padding: 2rem; }
+  .contenido h1 {
+    display: flex;
+    padding: 1rem 0rem 1rem 0rem; }
+
+.main {
+  display: flex;
+  padding: 2rem; }
+  .main h1 {
+    display: flex;
+    padding: 1rem 0rem 1rem 0rem; }
+
+.videoSection {
+  display: flex;
+  justify-self: center; }
+  .videoSection video {
+    display: flex;
+    width: 15rem;
+    height: 30rem; }
+
+.footer {
+  display: flex;
+  position: relative;
+  background-color: #FF7800;
+  padding: 0rem 1rem 0.5rem 1rem;
+  flex-direction: column;
+  align-items: flex-end; }
+  .footer p {
+    padding-top: 1rem; }
+  .footer div {
+    display: flex;
+    flex-direction: row;
+    display: inline-block; }
+
+.preguntasFrecuentes {
+  align-self: flex-start;
+  text-decoration: none; }
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem; }
+  .pages h1 {
+    display: flex;
+    padding: 0rem 0rem 2rem 0rem; }
+
+.pagesN {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 10rem 2rem 10rem;
+  font-size: 170%;
+  text-align: justify; }
+
+#Nosotros {
+  width: 15rem;
+  padding-left: 2rem; }
+
+.contactanos {
+  display: flex;
+  align-self: center; }
+
+.contacto {
+  display: flex;
+  flex-direction: inherit;
+  align-self: center;
+  width: 20rem;
+  padding: 1rem;
+  border-color: #FFBC97;
+  background-color: #FFBC97; }
+
+.enviar {
+  padding-top: 1rem; }
+
+.listaProductos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  grid-gap: 1rem;
+  justify-items: center; }
+  .listaProductos li {
+    display: grid;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: auto;
+    font-weight: bold;
+    font-size: 110%; }
+  .listaProductos p {
+    display: flex;
+    padding-bottom: 1rem;
+    font-size: 70%; }
+  .listaProductos img {
+    display: flex;
+    margin: 1rem; }

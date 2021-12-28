@@ -1,0 +1,43 @@
+.body
+{
+    border: 1rem;
+}
+
+.contenido
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: var(--color-blancofeelin);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    h1
+    {
+        display: flex;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+}
+
+.main
+{
+    display: flex;
+    padding: 2rem;
+    h1
+    {
+        display: flex;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+}
+
+.videoSection
+{
+   display: flex;
+   justify-self: center;
+    video
+    {
+        display: flex;
+        width: 15rem;
+        height: 30rem;
+    }
+}

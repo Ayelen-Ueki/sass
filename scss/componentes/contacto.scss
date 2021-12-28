@@ -1,0 +1,22 @@
+@import"../base/variables.scss";
+
+.contactanos
+{
+    display: flex;
+    align-self: center;
+}
+
+.contacto 
+{
+    display: flex;
+    flex-direction: inherit;
+    align-self: center;
+    width: 20rem;
+    padding:1rem;
+    border-color: $color-salmonfeelin;
+    background-color: $color-salmonfeelin;
+}
+.enviar
+{
+    padding-top: 1rem;
+}
