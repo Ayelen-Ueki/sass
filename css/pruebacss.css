@@ -1,14 +1,12 @@
-:root {
-  --color-amarillofeelin: #FFE300;
-  --color-naranjafeelin: #FF7800;
-  --color-salmonfeelin: #FFBC97;
-  --color-blancofeelin:#F7F7F7; }
+* {
+  margin: 0;
+  padding: 0; }
 
 .body {
   border: 1rem; }
 
 .header {
-  background-color: var(--color-amarillofeelin);
+  background-color: var(#FFE300);
   position: relative;
   position: sticky;
   top: 0rem; }
@@ -60,7 +58,7 @@ a {
 nav {
   display: grid;
   justify-content: center; }
-  nav nav ul {
+  nav ul {
     display: grid;
     justify-content: center; }
 
@@ -74,5 +72,5 @@ nav ul {
     display: flex;
     text-align: center;
     padding: 0rem 4rem 0rem 0rem; }
-  nav ul li:hover {
+  nav ul:hover {
     text-decoration: underline; }
