@@ -66,7 +66,6 @@
   position: relative;
   display: inline-block; }
   .iconos img {
-    padding-left: 0.5rem;
     width: 1.5rem;
     height: 1.5rem; }
 
@@ -100,7 +99,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  background-color: var(--color-blancofeelin);
+  background-color: #F7F7F7;
   justify-content: center;
   align-items: center;
   padding: 2rem; }
